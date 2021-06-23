@@ -1,0 +1,91 @@
+#sudo acpidump-all
+
+Processing table "SSDT" at 0x0000000000000000 ... 0 tables of that kind found before.
+Skipping SSDT because it was not dumped correctly.
+
+Processing table "MCFG" at 0x0000000000000000 ... 0 tables of that kind found before.
+Skipping MCFG because it was not dumped correctly.
+
+Processing table "ASF!" at 0x0000000000000000 ... 0 tables of that kind found before.
+Skipping ASF! because it was not dumped correctly.
+
+Processing table "APIC" at 0x0000000000000000 ... 0 tables of that kind found before.
+Skipping APIC because it was not dumped correctly.
+
+Processing table "SSDT" at 0x0000000000000000 ... 1 tables of that kind found before.
+Skipping SSDT because it was not dumped correctly.
+
+Processing table "TPM2" at 0x0000000000000000 ... 0 tables of that kind found before.
+Skipping TPM2 because it was not dumped correctly.
+
+Processing table "DSDT" at 0x0000000000000000 ... 0 tables of that kind found before.
+Skipping DSDT because it was not dumped correctly.
+
+Processing table "SSDT" at 0x0000000000000000 ... 2 tables of that kind found before.
+Skipping SSDT because it was not dumped correctly.
+
+Processing table "WSMT" at 0x0000000000000000 ... 0 tables of that kind found before.
+Skipping WSMT because it was not dumped correctly.
+
+Processing table "LPIT" at 0x0000000000000000 ... 0 tables of that kind found before.
+Skipping LPIT because it was not dumped correctly.
+
+Processing table "SSDT" at 0x0000000000000000 ... 3 tables of that kind found before.
+Skipping SSDT because it was not dumped correctly.
+
+Processing table "UEFI" at 0x0000000000000000 ... 0 tables of that kind found before.
+Skipping UEFI because it was not dumped correctly.
+
+Processing table "DBG2" at 0x0000000000000000 ... 0 tables of that kind found before.
+Skipping DBG2 because it was not dumped correctly.
+
+Processing table "SSDT" at 0x0000000000000000 ... 4 tables of that kind found before.
+Skipping SSDT because it was not dumped correctly.
+
+Processing table "DMAR" at 0x0000000000000000 ... 0 tables of that kind found before.
+Skipping DMAR because it was not dumped correctly.
+
+Processing table "FACP" at 0x0000000000000000 ... 0 tables of that kind found before.
+Skipping FACP because it was not dumped correctly.
+
+Processing table "FPDT" at 0x0000000000000000 ... 0 tables of that kind found before.
+Skipping FPDT because it was not dumped correctly.
+
+Processing table "SSDT" at 0x0000000000000000 ... 5 tables of that kind found before.
+Skipping SSDT because it was not dumped correctly.
+
+Processing table "SSDT" at 0x0000000000000000 ... 6 tables of that kind found before.
+Skipping SSDT because it was not dumped correctly.
+
+Processing table "DBGP" at 0x0000000000000000 ... 0 tables of that kind found before.
+Skipping DBGP because it was not dumped correctly.
+
+Processing table "HPET" at 0x0000000000000000 ... 0 tables of that kind found before.
+Skipping HPET because it was not dumped correctly.
+
+Processing table "SSDT" at 0x0000000000000000 ... 7 tables of that kind found before.
+Skipping SSDT because it was not dumped correctly.
+
+Processing table "UEFI" at 0x0000000000000000 ... 1 tables of that kind found before.
+Skipping UEFI because it was not dumped correctly.
+
+Processing table "FACS" at 0x0000000000000000 ... 0 tables of that kind found before.
+Skipping FACS because it was not dumped correctly.
+
+Processing table "BGRT" at 0x0000000000000000 ... 0 tables of that kind found before.
+Skipping BGRT because it was not dumped correctly.
+
+Processing table "SSDT" at 0x0000000000000000 ... 8 tables of that kind found before.
+Skipping SSDT because it was not dumped correctly.
+
+Processing table "SSDT" at 0x0000000000000000 ... 9 tables of that kind found before.
+Skipping SSDT because it was not dumped correctly.
+
+Processing table "SSDT" at 0x0000000000000000 ... 10 tables of that kind found before.
+Skipping SSDT because it was not dumped correctly.
+
+Processing table "SSDT" at 0x0000000000000000 ... 11 tables of that kind found before.
+Skipping SSDT because it was not dumped correctly.
+
+Processing table "SSDT" at 0x0000000000000000 ... 12 tables of that kind found before.
+Skipping SSDT because it was not dumped correctly.

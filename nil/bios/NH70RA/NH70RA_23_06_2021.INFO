@@ -1,3 +1,65 @@
-flashrom -p internal -V -w NH70RA_23_06_2021.BIN
+flashrom -p internal -V -r NH70RA_23_06_2021.BIN
 
 [    0.000000] DMI: Notebook                         NH50_70RA                     /NH50_70RA                     , BIOS 1.07.14 06/06/2020
+
+
+
+flashrom v1.2 on Linux 5.10.0-7-amd64 (x86_64)
+flashrom is free software, get the source code at https://flashrom.org
+
+flashrom was built with libpci 3.6.4, GCC 9.2.1 20200224, little endian
+Command line (5 args): flashrom -p internal -V -r NH70RA_23_06_2021.BIN
+Using clock_gettime for delay loops (clk_id: 1, resolution: 1ns).
+Initializing internal programmer
+/sys/class/mtd/mtd0 does not exist
+No coreboot table found.
+Using Internal DMI decoder.
+No DMI table found.
+W836xx enter config mode worked or we were already in config mode. W836xx leave config mode had no effect.
+Active config mode, unknown reg 0x20 ID: 55.
+Found chipset "Intel HM370" with PCI ID 8086:a30d.
+This chipset is marked as untested. If you are using an up-to-date version
+of flashrom *and* were (not) able to successfully update your firmware with it,
+then please email a report to flashrom@flashrom.org including a verbose (-V) log.
+Thank you!
+Enabling flash write... BIOS_SPI_BC = 0x888: BIOS Interface Lock-Down: enabled, Boot BIOS Straps: 0x0 (SPI)
+Top Swap: not enabled
+SPI Read Configuration: prefetching enabled, caching enabled, 
+BIOS_CNTL = 0x89: BIOS Lock Enable: disabled, BIOS Write Enable: enabled
+SPIBAR = 0x00007f27d8b79000 (phys = 0xfe010000)
+0x04: 0xe800 (HSFS)
+HSFS: FDONE=0, FCERR=0, AEL=0, SCIP=0, PRR34_LOCKDN=0, WRSDIS=1, FDOPSS=1, FDV=1, FLOCKDN=1
+SPI Configuration is locked down.
+Reading OPCODES... done
+0x06: 0x0000 (HSFC)
+HSFC: FGO=0, HSFC=0, WET=0, FDBC=0, SME=0
+0x0c: 0x00000000 (DLOCK)
+DLOCK: BMWAG_LOCKDN=0, BMRAG_LOCKDN=0, SBMWAG_LOCKDN=0, SBMRAG_LOCKDN=0,
+       PR0_LOCKDN=0, PR1_LOCKDN=0, PR2_LOCKDN=0, PR3_LOCKDN=0, PR4_LOCKDN=0,
+       SSEQ_LOCKDN=0
+0x50: 0x0000ffff (FRAP)
+BMWAG 0x00, BMRAG 0x00, BRWA 0xff, BRRA 0xff
+0x54: 0x00000000 FREG0: Flash Descriptor region (0x00000000-0x00000fff) is read-write.
+0x58: 0x0fff0600 FREG1: BIOS region (0x00600000-0x00ffffff) is read-write.
+0x5C: 0x05ff0001 FREG2: Management Engine region (0x00001000-0x005fffff) is read-write.
+0xa0: 0x80 (SSFS)
+SSFS: SCIP=0, FDONE=0, FCERR=0, AEL=0
+0xa1: 0xfe0000 (SSFC)
+SSFC: SCGO=0, ACS=0, SPOP=0, COP=0, DBC=0, SME=0, SCF=6
+0xa4: 0x0000     (PREOP)
+0xa6: 0x0000     (OPTYPE)
+0xa8: 0x00000000 (OPMENU)
+0xac: 0x00000000 (OPMENU+4)
+0xc4: 0xf3d82004 (LVSCC)
+LVSCC: BES=0x0, WG=1, WSR=0, WEWS=0, EO=0x20, VCL=1
+0xc8: 0x00002000 (UVSCC)
+UVSCC: BES=0x0, WG=0, WSR=0, WEWS=0, EO=0x20
+Enabling hardware sequencing because some important opcode is locked.
+OK.
+The following protocols are supported: Programmer-specific.
+Probing for Programmer Opaque flash chip, 0 kB: Hardware sequencing reports 1 attached SPI flash chip with a density of 16384 kB.
+Found Programmer flash chip "Opaque flash chip" (16384 kB, Programmer-specific) mapped at physical address 0x0000000000000000.
+Found Programmer flash chip "Opaque flash chip" (16384 kB, Programmer-specific).
+Reading flash... Reading 16777216 bytes starting at 0x000000.
+done.
+Restoring PCI config space for 00:1f:5 reg 0xdc

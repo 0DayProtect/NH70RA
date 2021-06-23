@@ -1,0 +1,5 @@
+/sys/class/power_supply/AC:
+POWER_SUPPLY_NAME=AC
+POWER_SUPPLY_TYPE=Mains
+POWER_SUPPLY_ONLINE=1
+

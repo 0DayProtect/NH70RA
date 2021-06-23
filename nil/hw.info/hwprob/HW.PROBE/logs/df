@@ -1,0 +1,11 @@
+Filesystem     Type      Size  Used Avail Use% Mounted on
+udev           devtmpfs   16G     0   16G   0% /dev
+tmpfs          tmpfs     3.2G  1.6M  3.2G   1% /run
+/dev/shm       tmpfs     3.3G  3.1G  157M  96% /run/live/medium
+/dev/loop0     squashfs  2.7G  2.7G     0 100% /run/live/rootfs/filesystem.squashfs
+tmpfs          tmpfs      16G  185M   16G   2% /run/live/overlay
+overlay        overlay    16G  185M   16G   2% /
+tmpfs          tmpfs      16G     0   16G   0% /dev/shm
+tmpfs          tmpfs     5.0M  4.0K  5.0M   1% /run/lock
+tmpfs          tmpfs      16G   68K   16G   1% /tmp
+tmpfs          tmpfs     3.2G   52K  3.2G   1% /run/user/1000

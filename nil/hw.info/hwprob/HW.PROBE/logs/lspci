@@ -1,0 +1,218 @@
+Device:	00:00.0
+Class:	Host bridge [0600]
+Vendor:	Intel Corporation [8086]
+Device:	8th Gen Core Processor Host Bridge/DRAM Registers [3ec4]
+SVendor:	CLEVO/KAPOK Computer [1558]
+SDevice:	8th Gen Core Processor Host Bridge/DRAM Registers [8561]
+Rev:	07
+Driver:	skl_uncore
+IOMMUGroup:	0
+
+Device:	00:01.0
+Class:	PCI bridge [0604]
+Vendor:	Intel Corporation [8086]
+Device:	6th-10th Gen Core Processor PCIe Controller (x16) [1901]
+Rev:	07
+Driver:	pcieport
+IOMMUGroup:	1
+
+Device:	00:02.0
+Class:	VGA compatible controller [0300]
+Vendor:	Intel Corporation [8086]
+Device:	CoffeeLake-H GT2 [UHD Graphics 630] [3e9b]
+SVendor:	CLEVO/KAPOK Computer [1558]
+SDevice:	UHD Graphics 630 (Mobile) [8561]
+Driver:	i915
+Module:	i915
+IOMMUGroup:	2
+
+Device:	00:12.0
+Class:	Signal processing controller [1180]
+Vendor:	Intel Corporation [8086]
+Device:	Cannon Lake PCH Thermal Controller [a379]
+SVendor:	CLEVO/KAPOK Computer [1558]
+SDevice:	Cannon Lake PCH Thermal Controller [8561]
+Rev:	10
+Driver:	intel_pch_thermal
+Module:	intel_pch_thermal
+IOMMUGroup:	3
+
+Device:	00:14.0
+Class:	USB controller [0c03]
+Vendor:	Intel Corporation [8086]
+Device:	Cannon Lake PCH USB 3.1 xHCI Host Controller [a36d]
+SVendor:	CLEVO/KAPOK Computer [1558]
+SDevice:	Cannon Lake PCH USB 3.1 xHCI Host Controller [8561]
+Rev:	10
+ProgIf:	30
+Driver:	xhci_hcd
+Module:	xhci_pci
+IOMMUGroup:	4
+
+Device:	00:14.2
+Class:	RAM memory [0500]
+Vendor:	Intel Corporation [8086]
+Device:	Cannon Lake PCH Shared SRAM [a36f]
+SVendor:	CLEVO/KAPOK Computer [1558]
+SDevice:	Cannon Lake PCH Shared SRAM [8561]
+Rev:	10
+IOMMUGroup:	4
+
+Device:	00:15.0
+Class:	Serial bus controller [0c80]
+Vendor:	Intel Corporation [8086]
+Device:	Cannon Lake PCH Serial IO I2C Controller #0 [a368]
+SVendor:	CLEVO/KAPOK Computer [1558]
+SDevice:	Cannon Lake PCH Serial IO I2C Controller [8561]
+Rev:	10
+Driver:	intel-lpss
+Module:	intel_lpss_pci
+IOMMUGroup:	5
+
+Device:	00:16.0
+Class:	Communication controller [0780]
+Vendor:	Intel Corporation [8086]
+Device:	Cannon Lake PCH HECI Controller [a360]
+SVendor:	CLEVO/KAPOK Computer [1558]
+SDevice:	Cannon Lake PCH HECI Controller [8561]
+Rev:	10
+Driver:	mei_me
+Module:	mei_me
+IOMMUGroup:	6
+
+Device:	00:17.0
+Class:	SATA controller [0106]
+Vendor:	Intel Corporation [8086]
+Device:	Cannon Lake Mobile PCH SATA AHCI Controller [a353]
+SVendor:	CLEVO/KAPOK Computer [1558]
+SDevice:	Cannon Lake Mobile PCH SATA AHCI Controller [8561]
+Rev:	10
+ProgIf:	01
+Driver:	ahci
+Module:	ahci
+IOMMUGroup:	7
+
+Device:	00:1b.0
+Class:	PCI bridge [0604]
+Vendor:	Intel Corporation [8086]
+Device:	Cannon Lake PCH PCI Express Root Port #21 [a32c]
+Rev:	f0
+Driver:	pcieport
+IOMMUGroup:	8
+
+Device:	00:1d.0
+Class:	PCI bridge [0604]
+Vendor:	Intel Corporation [8086]
+Device:	Cannon Lake PCH PCI Express Root Port #9 [a330]
+Rev:	f0
+Driver:	pcieport
+IOMMUGroup:	9
+
+Device:	00:1d.6
+Class:	PCI bridge [0604]
+Vendor:	Intel Corporation [8086]
+Device:	Cannon Lake PCH PCI Express Root Port #15 [a336]
+Rev:	f0
+Driver:	pcieport
+IOMMUGroup:	10
+
+Device:	00:1f.0
+Class:	ISA bridge [0601]
+Vendor:	Intel Corporation [8086]
+Device:	HM470 Chipset LPC/eSPI Controller [a30d]
+SVendor:	CLEVO/KAPOK Computer [1558]
+SDevice:	HM470 Chipset LPC/eSPI Controller [8561]
+Rev:	10
+IOMMUGroup:	11
+
+Device:	00:1f.3
+Class:	Audio device [0403]
+Vendor:	Intel Corporation [8086]
+Device:	Cannon Lake PCH cAVS [a348]
+SVendor:	CLEVO/KAPOK Computer [1558]
+SDevice:	Cannon Lake PCH cAVS [8561]
+Rev:	10
+Driver:	snd_hda_intel
+Module:	snd_hda_intel
+Module:	snd_soc_skl
+Module:	snd_sof_pci
+IOMMUGroup:	11
+
+Device:	00:1f.4
+Class:	SMBus [0c05]
+Vendor:	Intel Corporation [8086]
+Device:	Cannon Lake PCH SMBus Controller [a323]
+SVendor:	CLEVO/KAPOK Computer [1558]
+SDevice:	Cannon Lake PCH SMBus Controller [8561]
+Rev:	10
+Driver:	i801_smbus
+Module:	i2c_i801
+IOMMUGroup:	11
+
+Device:	00:1f.5
+Class:	Serial bus controller [0c80]
+Vendor:	Intel Corporation [8086]
+Device:	Cannon Lake PCH SPI Controller [a324]
+SVendor:	CLEVO/KAPOK Computer [1558]
+SDevice:	Cannon Lake PCH SPI Controller [8561]
+Rev:	10
+IOMMUGroup:	11
+
+Device:	01:00.0
+Class:	VGA compatible controller [0300]
+Vendor:	NVIDIA Corporation [10de]
+Device:	TU117M [GeForce GTX 1650 Mobile / Max-Q] [1f91]
+SVendor:	CLEVO/KAPOK Computer [1558]
+SDevice:	TU117M [GeForce GTX 1650 Mobile / Max-Q] [8560]
+Rev:	a1
+Driver:	nouveau
+Module:	nouveau
+Module:	nvidia_current_drm
+Module:	nvidia_current
+IOMMUGroup:	1
+
+Device:	01:00.1
+Class:	Audio device [0403]
+Vendor:	NVIDIA Corporation [10de]
+Device:	Device [10fa]
+SVendor:	NVIDIA Corporation [10de]
+SDevice:	Device [0000]
+Rev:	a1
+Driver:	snd_hda_intel
+Module:	snd_hda_intel
+IOMMUGroup:	1
+
+Device:	06:00.0
+Class:	Non-Volatile memory controller [0108]
+Vendor:	Samsung Electronics Co Ltd [144d]
+Device:	NVMe SSD Controller SM981/PM981/PM983 [a808]
+SVendor:	Samsung Electronics Co Ltd [144d]
+SDevice:	NVMe SSD Controller SM981/PM981/PM983 [a801]
+ProgIf:	02
+Driver:	nvme
+Module:	nvme
+NUMANode:	0
+IOMMUGroup:	12
+
+Device:	08:00.0
+Class:	Unassigned class [ff00]
+Vendor:	Realtek Semiconductor Co., Ltd. [10ec]
+Device:	RTL8411B PCI Express Card Reader [5287]
+SVendor:	CLEVO/KAPOK Computer [1558]
+SDevice:	RTL8411B PCI Express Card Reader [8560]
+Rev:	01
+Driver:	rtsx_pci
+Module:	rtsx_pci
+IOMMUGroup:	13
+
+Device:	08:00.1
+Class:	Ethernet controller [0200]
+Vendor:	Realtek Semiconductor Co., Ltd. [10ec]
+Device:	RTL8111/8168/8411 PCI Express Gigabit Ethernet Controller [8168]
+SVendor:	CLEVO/KAPOK Computer [1558]
+SDevice:	RTL8111/8168/8411 PCI Express Gigabit Ethernet Controller [8560]
+Rev:	12
+Driver:	r8169
+Module:	r8169
+IOMMUGroup:	13
+

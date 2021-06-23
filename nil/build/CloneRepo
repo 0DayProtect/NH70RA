@@ -1,0 +1,14 @@
+#!/bin/bash
+
+echo ""
+echo "Clones all the projects in a git repository into current directory"
+echo ""
+echo "system76"
+echo "coreboot"
+echo "tianocore"
+echo ""
+echo ""
+echo ""
+read -p "Enter Repo Name: " ORGANIZATION
+cho ""
+curl -s https://api.github.com/orgs/$ORGANIZATION/repos | grep -e 'clone_url*' | cut -d \" -f 4 | xargs -L1 git clone

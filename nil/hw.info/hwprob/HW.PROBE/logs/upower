@@ -1,0 +1,26 @@
+Device: /org/freedesktop/UPower/devices/line_power_AC
+  native-path:          AC
+  power supply:         yes
+  updated:              Wed Jun 23 21:18:38 2021 (1685 seconds ago)
+  has history:          no
+  has statistics:       no
+  line-power
+    warning-level:       none
+    online:              yes
+    icon-name:          'ac-adapter-symbolic'
+
+Device: /org/freedesktop/UPower/devices/DisplayDevice
+  power supply:         no
+  updated:              Wed Jun 23 21:18:38 2021 (1685 seconds ago)
+  has history:          no
+  has statistics:       no
+  unknown
+    warning-level:       none
+    icon-name:          'battery-missing-symbolic'
+
+Daemon:
+  daemon-version:  0.99.11
+  on-battery:      no
+  lid-is-closed:   yes
+  lid-is-present:  yes
+  critical-action: PowerOff

@@ -1,0 +1,25 @@
+arch:x86_64
+boot_mode:EFI
+cores:6
+dual_boot:0
+dual_boot_win:0
+filesystem:overlay
+hwaddr:5930985cca0a717f44fd854b948251fa
+kernel:5.10.0-7-amd64
+lang:en_US.UTF-8
+microarch:Skylake
+microcode:0x906ea
+model:NH50_70RA
+monitors:2
+nics:1
+op_modes:32-bit, 64-bit
+probe_ver:1.5
+ram_total:32711120
+ram_used:4642424
+sockets:1
+system:debian
+threads:2
+type:notebook
+vendor:Notebook
+video_memory:4
+year:2020

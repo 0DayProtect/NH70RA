@@ -1,0 +1,386 @@
+⎡ Virtual core pointer                    	id=2	[master pointer  (3)]
+	Reporting 7 classes:
+		Class originated from: 11. Type: XIButtonClass
+		Buttons supported: 20
+		Button labels: "Button Left" "Button Middle" "Button Right" "Button Wheel Up" "Button Wheel Down" "Button Horiz Wheel Left" "Button Horiz Wheel Right" "Button Side" "Button Extra" "Button Forward" "Button Back" None None None None None None None None None
+		Button state:
+		Class originated from: 11. Type: XIValuatorClass
+		Detail for Valuator 0:
+		  Label: Rel X
+		  Range: -1.000000 - -1.000000
+		  Resolution: 0 units/m
+		  Mode: relative
+		Class originated from: 11. Type: XIValuatorClass
+		Detail for Valuator 1:
+		  Label: Rel Y
+		  Range: -1.000000 - -1.000000
+		  Resolution: 0 units/m
+		  Mode: relative
+		Class originated from: 11. Type: XIValuatorClass
+		Detail for Valuator 2:
+		  Label: Rel Horiz Scroll
+		  Range: -1.000000 - -1.000000
+		  Resolution: 0 units/m
+		  Mode: relative
+		Class originated from: 11. Type: XIValuatorClass
+		Detail for Valuator 3:
+		  Label: Rel Vert Scroll
+		  Range: -1.000000 - -1.000000
+		  Resolution: 0 units/m
+		  Mode: relative
+		Class originated from: 11. Type: XIScrollClass
+		Scroll info for Valuator 2
+		  type: 2 (horizontal)
+		  increment: 15.000000
+		  flags: 0x0
+		Class originated from: 11. Type: XIScrollClass
+		Scroll info for Valuator 3
+		  type: 1 (vertical)
+		  increment: 15.000000
+		  flags: 0x0
+
+⎜   ↳ Virtual core XTEST pointer              	id=4	[slave  pointer  (2)]
+	Reporting 3 classes:
+		Class originated from: 4. Type: XIButtonClass
+		Buttons supported: 10
+		Button labels: "Button Left" "Button Middle" "Button Right" "Button Wheel Up" "Button Wheel Down" "Button Horiz Wheel Left" "Button Horiz Wheel Right" None None None
+		Button state:
+		Class originated from: 4. Type: XIValuatorClass
+		Detail for Valuator 0:
+		  Label: Rel X
+		  Range: -1.000000 - -1.000000
+		  Resolution: 0 units/m
+		  Mode: relative
+		Class originated from: 4. Type: XIValuatorClass
+		Detail for Valuator 1:
+		  Label: Rel Y
+		  Range: -1.000000 - -1.000000
+		  Resolution: 0 units/m
+		  Mode: relative
+
+⎜   ↳ Logitech G502 HERO Gaming Mouse         	id=11	[slave  pointer  (2)]
+	Reporting 7 classes:
+		Class originated from: 11. Type: XIButtonClass
+		Buttons supported: 20
+		Button labels: "Button Left" "Button Middle" "Button Right" "Button Wheel Up" "Button Wheel Down" "Button Horiz Wheel Left" "Button Horiz Wheel Right" "Button Side" "Button Extra" "Button Forward" "Button Back" None None None None None None None None None
+		Button state:
+		Class originated from: 11. Type: XIValuatorClass
+		Detail for Valuator 0:
+		  Label: Rel X
+		  Range: -1.000000 - -1.000000
+		  Resolution: 0 units/m
+		  Mode: relative
+		Class originated from: 11. Type: XIValuatorClass
+		Detail for Valuator 1:
+		  Label: Rel Y
+		  Range: -1.000000 - -1.000000
+		  Resolution: 0 units/m
+		  Mode: relative
+		Class originated from: 11. Type: XIValuatorClass
+		Detail for Valuator 2:
+		  Label: Rel Horiz Scroll
+		  Range: -1.000000 - -1.000000
+		  Resolution: 0 units/m
+		  Mode: relative
+		Class originated from: 11. Type: XIValuatorClass
+		Detail for Valuator 3:
+		  Label: Rel Vert Scroll
+		  Range: -1.000000 - -1.000000
+		  Resolution: 0 units/m
+		  Mode: relative
+		Class originated from: 11. Type: XIScrollClass
+		Scroll info for Valuator 2
+		  type: 2 (horizontal)
+		  increment: 15.000000
+		  flags: 0x0
+		Class originated from: 11. Type: XIScrollClass
+		Scroll info for Valuator 3
+		  type: 1 (vertical)
+		  increment: 15.000000
+		  flags: 0x0
+
+⎜   ↳ Logitech G502 HERO Gaming Mouse Consumer Control	id=13	[slave  pointer  (2)]
+	Reporting 7 classes:
+		Class originated from: 13. Type: XIButtonClass
+		Buttons supported: 7
+		Button labels: "Button Left" "Button Middle" "Button Right" "Button Wheel Up" "Button Wheel Down" "Button Horiz Wheel Left" "Button Horiz Wheel Right"
+		Button state:
+		Class originated from: 13. Type: XIValuatorClass
+		Detail for Valuator 0:
+		  Label: Rel X
+		  Range: -1.000000 - -1.000000
+		  Resolution: 0 units/m
+		  Mode: relative
+		Class originated from: 13. Type: XIValuatorClass
+		Detail for Valuator 1:
+		  Label: Rel Y
+		  Range: -1.000000 - -1.000000
+		  Resolution: 0 units/m
+		  Mode: relative
+		Class originated from: 13. Type: XIValuatorClass
+		Detail for Valuator 2:
+		  Label: Rel Horiz Scroll
+		  Range: -1.000000 - -1.000000
+		  Resolution: 0 units/m
+		  Mode: relative
+		Class originated from: 13. Type: XIValuatorClass
+		Detail for Valuator 3:
+		  Label: Rel Vert Scroll
+		  Range: -1.000000 - -1.000000
+		  Resolution: 0 units/m
+		  Mode: relative
+		Class originated from: 13. Type: XIScrollClass
+		Scroll info for Valuator 2
+		  type: 2 (horizontal)
+		  increment: 15.000000
+		  flags: 0x0
+		Class originated from: 13. Type: XIScrollClass
+		Scroll info for Valuator 3
+		  type: 1 (vertical)
+		  increment: 15.000000
+		  flags: 0x0
+
+⎜   ↳ Kingston HyperX Alloy FPS Mechanical Gaming Keyboard Mouse	id=16	[slave  pointer  (2)]
+	Reporting 7 classes:
+		Class originated from: 16. Type: XIButtonClass
+		Buttons supported: 9
+		Button labels: "Button Left" "Button Middle" "Button Right" "Button Wheel Up" "Button Wheel Down" "Button Horiz Wheel Left" "Button Horiz Wheel Right" "Button Side" "Button Extra"
+		Button state:
+		Class originated from: 16. Type: XIValuatorClass
+		Detail for Valuator 0:
+		  Label: Rel X
+		  Range: -1.000000 - -1.000000
+		  Resolution: 0 units/m
+		  Mode: relative
+		Class originated from: 16. Type: XIValuatorClass
+		Detail for Valuator 1:
+		  Label: Rel Y
+		  Range: -1.000000 - -1.000000
+		  Resolution: 0 units/m
+		  Mode: relative
+		Class originated from: 16. Type: XIValuatorClass
+		Detail for Valuator 2:
+		  Label: Rel Horiz Scroll
+		  Range: -1.000000 - -1.000000
+		  Resolution: 0 units/m
+		  Mode: relative
+		Class originated from: 16. Type: XIValuatorClass
+		Detail for Valuator 3:
+		  Label: Rel Vert Scroll
+		  Range: -1.000000 - -1.000000
+		  Resolution: 0 units/m
+		  Mode: relative
+		Class originated from: 16. Type: XIScrollClass
+		Scroll info for Valuator 2
+		  type: 2 (horizontal)
+		  increment: 15.000000
+		  flags: 0x0
+		Class originated from: 16. Type: XIScrollClass
+		Scroll info for Valuator 3
+		  type: 1 (vertical)
+		  increment: 15.000000
+		  flags: 0x0
+
+⎜   ↳ Kingston HyperX Alloy FPS Mechanical Gaming Keyboard Consumer Control	id=18	[slave  pointer  (2)]
+	Reporting 7 classes:
+		Class originated from: 18. Type: XIButtonClass
+		Buttons supported: 7
+		Button labels: "Button Left" "Button Middle" "Button Right" "Button Wheel Up" "Button Wheel Down" "Button Horiz Wheel Left" "Button Horiz Wheel Right"
+		Button state:
+		Class originated from: 18. Type: XIValuatorClass
+		Detail for Valuator 0:
+		  Label: Rel X
+		  Range: -1.000000 - -1.000000
+		  Resolution: 0 units/m
+		  Mode: relative
+		Class originated from: 18. Type: XIValuatorClass
+		Detail for Valuator 1:
+		  Label: Rel Y
+		  Range: -1.000000 - -1.000000
+		  Resolution: 0 units/m
+		  Mode: relative
+		Class originated from: 18. Type: XIValuatorClass
+		Detail for Valuator 2:
+		  Label: Rel Horiz Scroll
+		  Range: -1.000000 - -1.000000
+		  Resolution: 0 units/m
+		  Mode: relative
+		Class originated from: 18. Type: XIValuatorClass
+		Detail for Valuator 3:
+		  Label: Rel Vert Scroll
+		  Range: -1.000000 - -1.000000
+		  Resolution: 0 units/m
+		  Mode: relative
+		Class originated from: 18. Type: XIScrollClass
+		Scroll info for Valuator 2
+		  type: 2 (horizontal)
+		  increment: 15.000000
+		  flags: 0x0
+		Class originated from: 18. Type: XIScrollClass
+		Scroll info for Valuator 3
+		  type: 1 (vertical)
+		  increment: 15.000000
+		  flags: 0x0
+
+⎜   ↳ SYNA1202:00 06CB:CD65 Mouse             	id=20	[slave  pointer  (2)]
+	Reporting 7 classes:
+		Class originated from: 20. Type: XIButtonClass
+		Buttons supported: 7
+		Button labels: "Button Left" "Button Middle" "Button Right" "Button Wheel Up" "Button Wheel Down" "Button Horiz Wheel Left" "Button Horiz Wheel Right"
+		Button state:
+		Class originated from: 20. Type: XIValuatorClass
+		Detail for Valuator 0:
+		  Label: Rel X
+		  Range: -1.000000 - -1.000000
+		  Resolution: 0 units/m
+		  Mode: relative
+		Class originated from: 20. Type: XIValuatorClass
+		Detail for Valuator 1:
+		  Label: Rel Y
+		  Range: -1.000000 - -1.000000
+		  Resolution: 0 units/m
+		  Mode: relative
+		Class originated from: 20. Type: XIValuatorClass
+		Detail for Valuator 2:
+		  Label: Rel Horiz Scroll
+		  Range: -1.000000 - -1.000000
+		  Resolution: 0 units/m
+		  Mode: relative
+		Class originated from: 20. Type: XIValuatorClass
+		Detail for Valuator 3:
+		  Label: Rel Vert Scroll
+		  Range: -1.000000 - -1.000000
+		  Resolution: 0 units/m
+		  Mode: relative
+		Class originated from: 20. Type: XIScrollClass
+		Scroll info for Valuator 2
+		  type: 2 (horizontal)
+		  increment: 15.000000
+		  flags: 0x0
+		Class originated from: 20. Type: XIScrollClass
+		Scroll info for Valuator 3
+		  type: 1 (vertical)
+		  increment: 15.000000
+		  flags: 0x0
+
+⎜   ↳ SYNA1202:00 06CB:CD65 Touchpad          	id=21	[slave  pointer  (2)]
+	Reporting 7 classes:
+		Class originated from: 21. Type: XIButtonClass
+		Buttons supported: 7
+		Button labels: "Button Left" "Button Middle" "Button Right" "Button Wheel Up" "Button Wheel Down" "Button Horiz Wheel Left" "Button Horiz Wheel Right"
+		Button state:
+		Class originated from: 21. Type: XIValuatorClass
+		Detail for Valuator 0:
+		  Label: Rel X
+		  Range: -1.000000 - -1.000000
+		  Resolution: 0 units/m
+		  Mode: relative
+		Class originated from: 21. Type: XIValuatorClass
+		Detail for Valuator 1:
+		  Label: Rel Y
+		  Range: -1.000000 - -1.000000
+		  Resolution: 0 units/m
+		  Mode: relative
+		Class originated from: 21. Type: XIValuatorClass
+		Detail for Valuator 2:
+		  Label: Rel Horiz Scroll
+		  Range: -1.000000 - -1.000000
+		  Resolution: 0 units/m
+		  Mode: relative
+		Class originated from: 21. Type: XIValuatorClass
+		Detail for Valuator 3:
+		  Label: Rel Vert Scroll
+		  Range: -1.000000 - -1.000000
+		  Resolution: 0 units/m
+		  Mode: relative
+		Class originated from: 21. Type: XIScrollClass
+		Scroll info for Valuator 2
+		  type: 2 (horizontal)
+		  increment: 15.000000
+		  flags: 0x0
+		Class originated from: 21. Type: XIScrollClass
+		Scroll info for Valuator 3
+		  type: 1 (vertical)
+		  increment: 15.000000
+		  flags: 0x0
+
+⎣ Virtual core keyboard                   	id=3	[master keyboard (2)]
+	Reporting 1 classes:
+		Class originated from: 15. Type: XIKeyClass
+		Keycodes supported: 248
+
+    ↳ Virtual core XTEST keyboard             	id=5	[slave  keyboard (3)]
+	Reporting 1 classes:
+		Class originated from: 5. Type: XIKeyClass
+		Keycodes supported: 248
+
+    ↳ Power Button                            	id=6	[slave  keyboard (3)]
+	Reporting 1 classes:
+		Class originated from: 6. Type: XIKeyClass
+		Keycodes supported: 248
+
+    ↳ Video Bus                               	id=7	[slave  keyboard (3)]
+	Reporting 1 classes:
+		Class originated from: 7. Type: XIKeyClass
+		Keycodes supported: 248
+
+    ↳ Video Bus                               	id=8	[slave  keyboard (3)]
+	Reporting 1 classes:
+		Class originated from: 8. Type: XIKeyClass
+		Keycodes supported: 248
+
+    ↳ Power Button                            	id=9	[slave  keyboard (3)]
+	Reporting 1 classes:
+		Class originated from: 9. Type: XIKeyClass
+		Keycodes supported: 248
+
+    ↳ Sleep Button                            	id=10	[slave  keyboard (3)]
+	Reporting 1 classes:
+		Class originated from: 10. Type: XIKeyClass
+		Keycodes supported: 248
+
+    ↳ Logitech G502 HERO Gaming Mouse Keyboard	id=12	[slave  keyboard (3)]
+	Reporting 1 classes:
+		Class originated from: 12. Type: XIKeyClass
+		Keycodes supported: 248
+
+    ↳ Logitech G502 HERO Gaming Mouse System Control	id=14	[slave  keyboard (3)]
+	Reporting 1 classes:
+		Class originated from: 14. Type: XIKeyClass
+		Keycodes supported: 248
+
+    ↳ Kingston HyperX Alloy FPS Mechanical Gaming Keyboard	id=15	[slave  keyboard (3)]
+	Reporting 1 classes:
+		Class originated from: 15. Type: XIKeyClass
+		Keycodes supported: 248
+
+    ↳ Kingston HyperX Alloy FPS Mechanical Gaming Keyboard System Control	id=17	[slave  keyboard (3)]
+	Reporting 1 classes:
+		Class originated from: 17. Type: XIKeyClass
+		Keycodes supported: 248
+
+    ↳ Kingston HyperX Alloy FPS Mechanical Gaming Keyboard	id=19	[slave  keyboard (3)]
+	Reporting 1 classes:
+		Class originated from: 19. Type: XIKeyClass
+		Keycodes supported: 248
+
+    ↳ Intel HID events                        	id=22	[slave  keyboard (3)]
+	Reporting 1 classes:
+		Class originated from: 22. Type: XIKeyClass
+		Keycodes supported: 248
+
+    ↳ AT Translated Set 2 keyboard            	id=23	[slave  keyboard (3)]
+	Reporting 1 classes:
+		Class originated from: 23. Type: XIKeyClass
+		Keycodes supported: 248
+
+    ↳ Logitech G502 HERO Gaming Mouse Consumer Control	id=24	[slave  keyboard (3)]
+	Reporting 1 classes:
+		Class originated from: 24. Type: XIKeyClass
+		Keycodes supported: 248
+
+    ↳ Kingston HyperX Alloy FPS Mechanical Gaming Keyboard Consumer Control	id=25	[slave  keyboard (3)]
+	Reporting 1 classes:
+		Class originated from: 25. Type: XIKeyClass
+		Keycodes supported: 248
+

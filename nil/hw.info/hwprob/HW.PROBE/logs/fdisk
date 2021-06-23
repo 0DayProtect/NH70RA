@@ -1,0 +1,18 @@
+Disk /dev/nvme0n1: 465.76 GiB, 500107862016 bytes, 976773168 sectors
+Disk model: Samsung SSD 970 EVO Plus 500GB          
+Units: sectors of 1 * 512 = 512 bytes
+Sector size (logical/physical): 512 bytes / 512 bytes
+I/O size (minimum/optimal): 512 bytes / 512 bytes
+Disklabel type: gpt
+Disk identifier: ...
+
+Device             Start       End   Sectors   Size Type
+/dev/nvme0n1p1      4096    618495    614400   300M EFI System
+/dev/nvme0n1p2    618496 904657404 904038909 431.1G Linux filesystem
+/dev/nvme0n1p3 904657405 976768064  72110660  34.4G Linux swap
+
+
+Disk /dev/loop0: 2.69 GiB, 2891485184 bytes, 5647432 sectors
+Units: sectors of 1 * 512 = 512 bytes
+Sector size (logical/physical): 512 bytes / 512 bytes
+I/O size (minimum/optimal): 512 bytes / 512 bytes

@@ -1,0 +1,13 @@
+NAME        SIZE TYPE FSTYPE   UUID                                 MOUNTPOINT                                     MODEL                          PARTUUID
+loop0       2.7G loop squashfs                                      /usr/lib/live/mount/XXXXXXXXXXXXXXXXXXXXXXXXXX                                
+loop1         0B loop                                                                                                                             
+loop2         0B loop                                                                                                                             
+loop3         0B loop                                                                                                                             
+loop4         0B loop                                                                                                                             
+loop5         0B loop                                                                                                                             
+loop6         0B loop                                                                                                                             
+loop7         0B loop                                                                                                                             
+nvme0n1   465.8G disk                                                                                              Samsung SSD 970 EVO Plus 500GB 
+nvme0n1p1   300M part vfat     FEF6-245D                                                                                                          EBC1ABFE-C5C8-D015-F504-47C28DC0D65C
+nvme0n1p2 431.1G part ext4     0299C121-E6E0-CCAD-FFCE-BBAE610639D9                                                                               EE9E9FC1-CFF4-0C3B-731D-BA9BB4E6BC9D
+nvme0n1p3  34.4G part swap     62B0989E-C097-56FC-B0C0-6CF62DA85860                                                                               DB8CB843-F38A-9EC5-C546-B80219EEF7E3

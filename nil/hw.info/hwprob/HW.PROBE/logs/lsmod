@@ -1,0 +1,195 @@
+Module                  Size  Used by
+ac                     16384  0
+acpi_pad              184320  0
+aesni_intel           368640  0
+ahci                   40960  0
+async_memcpy           20480  2 raid456,async_raid6_recov
+async_pq               20480  2 raid456,async_raid6_recov
+async_raid6_recov      24576  1 raid456
+async_tx               20480  5 async_pq,async_memcpy,async_xor,raid456,async_raid6_recov
+async_xor              20480  3 async_pq,raid456,async_raid6_recov
+autofs4                53248  2
+battery                20480  0
+button                 24576  1 nouveau
+ccm                    20480  0
+cdrom                  73728  1 isofs
+cec                    61440  2 drm_kms_helper,i915
+cfg80211              970752  2 mt7601u,mac80211
+configfs               57344  1
+coretemp               20480  0
+crc16                  16384  1 ext4
+crc32_pclmul           16384  0
+crc32c_generic         16384  0
+crc32c_intel           24576  1
+crc_t10dif             20480  1 t10_pi
+crct10dif_common       16384  3 crct10dif_generic,crc_t10dif,crct10dif_pclmul
+crct10dif_generic      16384  0
+crct10dif_pclmul       16384  1
+cryptd                 24576  2 crypto_simd,ghash_clmulni_intel
+crypto_simd            16384  1 aesni_intel
+ctr                    16384  0
+drm                   618496  10 drm_kms_helper,i915,ttm,nouveau
+drm_kms_helper        274432  2 i915,nouveau
+ee1004                 20480  0
+efi_pstore             16384  0
+efivarfs               16384  1
+evdev                  28672  32
+ext4                  921600  0
+fat                    86016  1 vfat
+fuse                  167936  1
+ghash_clmulni_intel    16384  0
+glue_helper            16384  1 aesni_intel
+hid                   147456  4 i2c_hid,usbhid,hid_multitouch,hid_generic
+hid_generic            16384  0
+hid_multitouch         32768  0
+i2c_algo_bit           16384  2 i915,nouveau
+i2c_hid                32768  0
+i2c_i801               32768  0
+i2c_smbus              20480  1 i2c_i801
+i915                 2715648  7
+iTCO_vendor_support    16384  1 iTCO_wdt
+iTCO_wdt               16384  0
+idma64                 20480  0
+intel_cstate           20480  0
+intel_hid              24576  0
+intel_lpss             16384  1 intel_lpss_pci
+intel_lpss_pci         24576  0
+intel_pch_thermal      16384  0
+intel_pmc_bxt          16384  1 iTCO_wdt
+intel_pmc_core         45056  0
+intel_pmc_core_pltdrv    16384  0
+intel_powerclamp       20480  0
+intel_rapl_common      28672  1 intel_rapl_msr
+intel_rapl_msr         20480  0
+intel_uncore          176128  0
+ip6_tables             36864  52
+ip6t_REJECT            16384  1
+ip6t_rt                20480  3
+ip_tables              32768  8
+ipt_REJECT             16384  1
+irqbypass              16384  1 kvm
+isofs                  49152  0
+jbd2                  151552  1 ext4
+joydev                 28672  0
+kvm                   917504  1 kvm_intel
+kvm_intel             327680  0
+ledtrig_audio          16384  2 snd_hda_codec_generic,snd_sof
+libaes                 16384  1 aesni_intel
+libahci                45056  1 ahci
+libarc4                16384  1 mac80211
+libata                290816  2 libahci,ahci
+libcrc32c              16384  3 nf_conntrack,nf_tables,raid456
+libphy                151552  3 r8169,mdio_devres,realtek
+linear                 20480  0
+loop                   36864  2
+mac80211              983040  1 mt7601u
+mbcache                16384  1 ext4
+md_mod                184320  6 raid1,raid10,raid0,linear,raid456,multipath
+mdio_devres            16384  1 r8169
+mei                   139264  3 mei_hdcp,mei_me
+mei_hdcp               24576  0
+mei_me                 45056  1
+mmc_core              188416  1 rtsx_pci_sdmmc
+msr                    16384  0
+mt7601u               135168  0
+multipath              20480  0
+mxm_wmi                16384  1 nouveau
+nf_conntrack          176128  1 xt_conntrack
+nf_defrag_ipv4         16384  1 nf_conntrack
+nf_defrag_ipv6         24576  1 nf_conntrack
+nf_log_common          16384  2 nf_log_ipv4,nf_log_ipv6
+nf_log_ipv4            16384  5
+nf_log_ipv6            16384  5
+nf_reject_ipv4         16384  1 ipt_REJECT
+nf_reject_ipv6         20480  1 ip6t_REJECT
+nf_tables             245760  389 nft_compat,nft_counter,nft_limit
+nfnetlink              16384  2 nft_compat,nf_tables
+nft_compat             20480  135
+nft_counter            16384  170
+nft_limit              16384  13
+nls_ascii              16384  0
+nls_cp437              20480  0
+nls_utf8               16384  0
+nouveau              2326528  1
+nvme                   49152  0
+nvme_core             126976  1 nvme
+overlay               143360  1
+pcspkr                 16384  0
+psmouse               184320  0
+r8169                 102400  0
+raid0                  24576  0
+raid1                  53248  0
+raid10                 65536  0
+raid456               180224  0
+raid6_pq              122880  3 async_pq,raid456,async_raid6_recov
+rapl                   20480  0
+realtek                24576  1
+rfkill                 28672  2 cfg80211
+rng_core               16384  1 tpm
+rtsx_pci              106496  1 rtsx_pci_sdmmc
+rtsx_pci_sdmmc         32768  0
+scsi_mod              262144  5 sd_mod,usb_storage,uas,libata,sg
+sd_mod                 61440  0
+serio_raw              20480  0
+sg                     36864  0
+snd                   110592  18 snd_hda_codec_generic,snd_hda_codec_hdmi,snd_hwdep,snd_hda_intel,snd_hda_codec,snd_hda_codec_realtek,snd_timer,snd_compress,snd_soc_core,snd_pcm
+snd_compress           32768  1 snd_soc_core
+snd_hda_codec         172032  5 snd_hda_codec_generic,snd_hda_codec_hdmi,snd_hda_intel,snd_hda_codec_realtek,snd_soc_hdac_hda
+snd_hda_codec_generic    98304  1 snd_hda_codec_realtek
+snd_hda_codec_hdmi     73728  2
+snd_hda_codec_realtek   151552  1
+snd_hda_core          110592  10 snd_hda_codec_generic,snd_hda_codec_hdmi,snd_hda_intel,snd_hda_ext_core,snd_hda_codec,snd_hda_codec_realtek,snd_sof_intel_hda_common,snd_soc_hdac_hda,snd_soc_skl,snd_sof_intel_hda
+snd_hda_ext_core       36864  4 snd_sof_intel_hda_common,snd_soc_hdac_hda,snd_soc_skl,snd_sof_intel_hda
+snd_hda_intel          57344  4
+snd_hwdep              16384  1 snd_hda_codec
+snd_intel_dspcfg       28672  4 snd_hda_intel,snd_sof_pci,snd_sof_intel_hda_common,snd_soc_skl
+snd_pcm               135168  10 snd_hda_codec_hdmi,snd_hda_intel,snd_hda_codec,soundwire_intel,snd_sof,snd_sof_intel_hda_common,snd_compress,snd_soc_core,snd_soc_skl,snd_hda_core
+snd_soc_acpi           16384  4 snd_soc_acpi_intel_match,snd_sof_intel_hda_common,snd_sof_intel_byt,snd_soc_skl
+snd_soc_acpi_intel_match    45056  3 snd_sof_pci,snd_sof_intel_hda_common,snd_soc_skl
+snd_soc_core          315392  5 soundwire_intel,snd_sof,snd_sof_intel_hda_common,snd_soc_hdac_hda,snd_soc_skl
+snd_soc_hdac_hda       24576  2 snd_sof_intel_hda_common,snd_soc_skl
+snd_soc_skl           180224  0
+snd_soc_sst_dsp        36864  1 snd_soc_skl
+snd_soc_sst_ipc        20480  1 snd_soc_skl
+snd_sof               139264  4 snd_sof_pci,snd_sof_intel_hda_common,snd_sof_intel_byt,snd_sof_intel_ipc
+snd_sof_intel_byt      24576  1 snd_sof_pci
+snd_sof_intel_hda      20480  1 snd_sof_intel_hda_common
+snd_sof_intel_hda_common   102400  1 snd_sof_pci
+snd_sof_intel_ipc      20480  1 snd_sof_intel_byt
+snd_sof_pci            24576  0
+snd_sof_xtensa_dsp     16384  2 snd_sof_intel_hda_common,snd_sof_intel_byt
+snd_timer              49152  1 snd_pcm
+soundcore              16384  1 snd
+soundwire_bus          90112  3 soundwire_intel,soundwire_generic_allocation,soundwire_cadence
+soundwire_cadence      36864  1 soundwire_intel
+soundwire_generic_allocation    16384  1 soundwire_intel
+soundwire_intel        45056  2 snd_sof_intel_hda_common,snd_intel_dspcfg
+sparse_keymap          16384  1 intel_hid
+squashfs               69632  1
+t10_pi                 16384  2 sd_mod,nvme_core
+tpm                    73728  3 tpm_tis,tpm_crb,tpm_tis_core
+tpm_crb                20480  0
+tpm_tis                16384  0
+tpm_tis_core           28672  1 tpm_tis
+ttm                   114688  1 nouveau
+uas                    32768  0
+usb_common             16384  2 xhci_hcd,usbcore
+usb_storage            81920  1 uas
+usbcore               323584  6 xhci_hcd,usbhid,usb_storage,mt7601u,xhci_pci,uas
+usbhid                 65536  0
+vfat                   20480  0
+video                  53248  2 i915,nouveau
+watchdog               28672  1 iTCO_wdt
+wmi                    36864  3 wmi_bmof,mxm_wmi,nouveau
+wmi_bmof               16384  0
+x86_pkg_temp_thermal    20480  0
+x_tables               53248  12 xt_conntrack,nft_compat,xt_LOG,xt_tcpudp,xt_addrtype,ip6t_rt,ip6_tables,ipt_REJECT,ip_tables,xt_limit,xt_hl,ip6t_REJECT
+xhci_hcd              307200  1 xhci_pci
+xhci_pci               20480  0
+xor                    24576  1 async_xor
+xt_LOG                 20480  10
+xt_addrtype            16384  4
+xt_conntrack           16384  16
+xt_hl                  16384  22
+xt_limit               16384  0
+xt_tcpudp              20480  18

@@ -1,0 +1,5 @@
+#sudo hw-probe -all 
+
+Probe for hardware ... Ok
+Reading logs ... Ok
+Local probe path: /root/HW_PROBE/LATEST/hw.info

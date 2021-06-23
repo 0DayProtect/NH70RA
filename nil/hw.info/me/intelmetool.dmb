@@ -1,0 +1,65 @@
+#sudo intelmetool -d -m -b
+
+MEI found: [8086:a360] Cannon Lake PCH HECI Controller
+
+ME Status   : 0x90000245
+ME Status 2 : 0x6f10546
+
+ME: FW Partition Table      : OK
+ME: Bringup Loader Failure  : NO
+ME: Firmware Init Complete  : YES
+ME: Manufacturing Mode      : NO
+ME: Boot Options Present    : NO
+ME: Update In Progress      : NO
+ME: Current Working State   : Normal
+ME: Current Operation State : M0 with UMA
+ME: Current Operation Mode  : Normal
+ME: Error Code              : No Error
+ME: Progress Phase          : ROM Phase
+ME: Power Management Event  : Pseudo-global reset
+ME: Progress Phase State    : (null)
+
+PCI READ [bc] : 0x000000bc
+ME: Extend Register not valid
+
+WRITE    [00] : CB: 0x80040007
+WRITE    [00] : CB: 0x000002ff
+expected u32 = 8
+READ     [08] : CB: 0x801c0007
+READ     [08] : CB: 0x000082ff
+READ     [08] : CB: 0x000c0000
+READ     [08] : CB: 0x000c0000
+READ     [08] : CB: 0x003105fe
+READ     [08] : CB: 0x000c0000
+READ     [08] : CB: 0x00310600
+READ     [08] : CB: 0x00000000
+ME: Firmware Version 12.0.0.12 (code) 49.1534.0.12 (recovery) 49.1536.0.0 (fitc)
+
+WRITE    [00] : CB: 0x80080007
+WRITE    [00] : CB: 0x00000203
+WRITE    [00] : CB: 0x00000000
+expected u32 = 5
+READ     [08] : CB: 0x800d0007
+READ     [08] : CB: 0x00008203
+READ     [08] : CB: 0x00000000
+READ     [08] : CB: 0x11914004
+READ     [08] : CB: 0x00000031
+ME Capability: Full Network manageability                 : OFF
+ME Capability: Regular Network manageability              : OFF
+ME Capability: Manageability                              : OFF
+ME Capability: Small business technology                  : OFF
+ME Capability: Level III manageability                    : OFF
+ME Capability: IntelR Anti-Theft (AT)                     : OFF
+ME Capability: IntelR Capability Licensing Service (CLS)  : ON
+ME Capability: IntelR Power Sharing Technology (MPC)      : OFF
+ME Capability: ICC Over Clocking                          : OFF
+ME Capability: Protected Audio Video Path (PAVP)          : ON
+ME Capability: IPV6                                       : OFF
+ME Capability: KVM Remote Control (KVM)                   : OFF
+ME Capability: Outbreak Containment Heuristic (OCH)       : OFF
+ME Capability: Virtual LAN (VLAN)                         : ON
+ME Capability: TLS                                        : OFF
+ME Capability: Wireless LAN (WLAN)                        : OFF
+BootGuard MSR Output : 0x0
+Your system isn't BootGuard ready.
+You can flash other firmware!
