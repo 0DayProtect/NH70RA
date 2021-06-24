@@ -1,0 +1,8 @@
+Error mapping SBREG_BAR: Operation not permitted
+CPU: ID 0x906ea, Processor Type 0x0, Family 0x6, Model 0x9e, Stepping 0xa
+Northbridge: 8086:3ec4 (unknown)
+Southbridge: 8086:a30d (HM370)
+IGD: 8086:3e9b (Intel(R) UHD Graphics 630)
+SBREG_BAR = 0xfd000000 (MEM)
+
+Error mapping physical memory 0xfd000000[0x1000000]

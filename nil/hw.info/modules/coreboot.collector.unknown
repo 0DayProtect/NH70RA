@@ -1,0 +1,26 @@
+sudo ./autoport --input_log=logs --make_logs --coreboot_dir=../..
+
+WARNING: The following tool MAY cause your system to hang when it attempts to probe for graphics registers.  Having the graphics registers will help create a better port. Should autoport probe these registers?. (y/yes/n/no) Default:y
+no
+Unsupported PCI device 8086:3ec4
+Unsupported PCI device 8086:1901
+Unsupported PCI device 8086:3e9b
+Unsupported PCI device 8086:a379
+Unsupported PCI device 8086:a36d
+Unsupported PCI device 8086:a36f
+Unsupported PCI device 8086:a368
+Unsupported PCI device 8086:a360
+Unsupported PCI device 8086:a353
+Unsupported PCI device 8086:a32c
+Unsupported PCI device 8086:a330
+Unsupported PCI device 8086:a336
+Unsupported PCI device 8086:a30d
+Unsupported PCI device 8086:a348
+Unsupported PCI device 8086:a323
+Unsupported PCI device 8086:a324
+Unknown PCI device 10de:1f91, assuming removable
+Unknown PCI device 10de:10fa, assuming removable
+Unknown PCI device 144d:a808, assuming removable
+Unknown PCI device 10ec:5287, assuming removable
+Unknown PCI device 10ec:8168, assuming removable
+Could not detect southbridge. Aborting!

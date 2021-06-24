@@ -1,0 +1,109 @@
+superiotool r4.14-730-g6662fe60e1
+Found Aspeed AST2400 (id=0x00) at 0x2e
+Register dump:
+idx 20 21 22 23 24 25 26 27  28 29 2a 2b 2c 2d 2e 2f
+val 55 70 02 01 00 00 00 00  00 00 00 00 01 00 00 00
+def 00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00
+LDN 0x02 (SUART1)
+idx 30 60 61 70 71 f0
+val 00 02 f8 03 02 00
+def 00 03 f8 04 02 RR
+LDN 0x03 (SUART2)
+idx 30 60 61 70 71 f0
+val 00 00 00 00 00 00
+def 00 02 f8 03 02 00
+LDN 0x04 (SWC)
+idx 30 60 61 62 63 64 65 66  67 70 71
+val 00 00 00 00 00 00 00 00  00 00 01
+def 00 08 e6 08 e0 08 e4 08  e8 09 01
+LDN 0x05 (Keyboard config (KBC))
+idx 30 60 61 62 63 70 71 72  73 f0
+val 01 00 00 00 00 0c 01 00  00 00
+def 00 00 60 00 64 01 02 0c  02 83
+LDN 0x07 (GPIO)
+idx 30 38 70 71
+val 00 00 00 00
+def 00 00 0b 01
+LDN 0x0b (SUART3)
+idx 30 60 61 70 71 f0
+val 00 00 00 00 00 00
+def 00 03 e8 06 02 00
+LDN 0x0c (SUART4)
+idx 30 60 61 70 71 f0
+val 00 00 00 00 00 00
+def 00 02 e8 05 02 00
+LDN 0x0d (iLPC2AHB)
+idx 30 70 71 f0 f1 f2 f3 f4  f5 f6 f7 f8 fe
+val 00 00 00 00 00 00 00 00  00 00 00 00 00
+def 00 09 01 NA NA NA NA NA  NA NA NA 00 00
+LDN 0x0e (Mailbox)
+idx 30 60 61 70 71
+val 00 00 00 00 00
+def 00 08 c0 09 01
+Found ITE IT5570E (id=0x5570, rev=0x2) at 0x2e
+Register dump:
+idx 20 21 22 23 24 25 26 27  28 29 2a 2b 2d
+val 55 70 02 01 00 00 00 00  00 00 00 00 00
+def 55 70 NA 01 RR 00 00 RR  RR RR RR RR 00
+LDN 0x01 (Serial Port 1 (UART1))
+idx 30 60 61 62 63 70 71 f0
+val 00 03 f8 00 00 04 02 00
+def 00 02 f8 00 00 03 02 00
+LDN 0x02 (Serial Port 2 (UART2))
+idx 30 60 61 62 63 70 71 f0
+val 00 02 f8 00 00 03 02 00
+def 00 02 f8 00 00 03 02 00
+LDN 0x04 (System Wake-Up Control (SWUC))
+idx 30 60 61 70 71
+val 00 00 00 00 01
+def 00 00 00 00 01
+LDN 0x05 (KBC Mouse)
+idx 30 70 71
+val 01 0c 01
+def 00 0c 01
+LDN 0x06 (KBC Keyboard)
+idx 30 60 61 62 63 70 71
+val 01 00 60 00 64 01 01
+def 00 00 60 00 64 01 01
+LDN 0x0a (Consumer IR)
+idx 30 60 61 70 71
+val 00 03 10 00 02
+def 00 03 10 00 02
+LDN 0x0f (Shared Memory/Flash Interface (SMFI))
+idx 30 60 61 70 71 f0 f1 f2  f3 f4 f5 f6 f9 fa fb fc
+val 01 00 00 00 02 00 00 00  00 09 00 50 00 00 00 01
+def 00 00 00 00 02 00 00 00  00 00 00 00 00 00 00 01
+LDN 0x10 (RTC-like Timer (RTC))
+idx 30 60 61 62 63 64 65 66  67 68 69 70 71 f0 f1 f2  f3 f4 f5
+val 01 02 70 05 00 00 00 00  00 00 00 08 01 00 49 4a  00 3f 14
+def 00 00 70 02 72 00 00 00  00 00 00 08 01 00 49 4a  00 00 00
+LDN 0x11 (Power Management Interface Channel 1 (PMC1))
+idx 30 60 61 62 63 70 71
+val 01 00 62 00 66 00 01
+def 00 00 62 00 66 01 01
+LDN 0x12 (Power Management Interface Channel 2 (PMC2))
+idx 30 60 61 62 63 64 65 70  71 f0
+val 00 00 68 00 6c 00 00 00  01 00
+def 00 00 68 00 6c 00 00 01  01 NA
+LDN 0x13 (Serial Peripheral Interface (SSPI))
+idx 30 60 61 70 71
+val 00 03 00 00 02
+def 00 03 00 00 02
+LDN 0x14 (Platform Environment Control Interface (PECI))
+idx 30 60 61
+val 00 00 00
+def 00 00 00
+LDN 0x17 (Power Management Interface Channel 3 (PMC3))
+idx 30 60 61 62 63 70 71
+val 00 00 6a 00 6e 01 01
+def 00 00 6a 00 6e 01 01
+LDN 0x18 (Power Management Interface Channel 4 (PMC4))
+idx 30 60 61 62 63 70 71
+val 00 00 74 00 78 01 01
+def 00 00 74 00 78 01 01
+LDN 0x19 (Power Management Interface Channel 5 (PMC5))
+idx 30 60 61 62 63 70 71
+val 00 00 7a 00 7c 01 01
+def 00 00 7a 00 7c 01 01
+Environment controller (0x0005)
+BRAM (0x0500)
