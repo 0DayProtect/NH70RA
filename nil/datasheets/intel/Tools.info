@@ -14,7 +14,7 @@ AmberlakeFspBinPkg 	v2.1
 
 EDK II
 ------
-SecureBoot/OVMF payloads can be used in all Arch and Emulators
+SecureBoot/OVMF payloads can be used in all Architectures and Emulators
 https://github.com/tianocore/edk2.git
 
 edk2/IntelFsp2Pkg/Tools/
@@ -35,7 +35,7 @@ SingleSign.py
 
 Intel BCT
 ----------
-Portable graphical editor used to manipulate firmware data that is 
-multi architecture compatible and a standalone executable
+A portable graphical editor for manipulating firmware data which is 
+multi architecture compatible and runs as a standalone application
 https://github.com/intel/BCT.git
 
