@@ -1,0 +1,41 @@
+Intel FSP
+---------
+Used to initialize and configure the platform
+https://github.com/intel/FSP
+
+vBIOS
+Fsp.bsf 
+Fsp.fd 
+
+10th, 8th & 7th Generation Intel® Core™ processors and chipsets 
+(formerly Comet Lake Y-Series, Amber Lake, Kaby Lake Refresh, and Kaby Lake)
+AmberlakeFspBinPkg 	v2.1
+
+
+EDK II
+------
+SecureBoot/OVMF payloads can be used in all Arch and Emulators
+https://github.com/tianocore/edk2.git
+
+edk2/IntelFsp2Pkg/Tools/
+
+FspDscBsf2Yaml.py
+FspGenCfgData.py
+GenCfgOpt.py
+PatchFv.py
+SplitFspBin.py
+
+edk2/IntelFsp2Pkg/Tools/ConfigEditor/
+
+CommonUtility.py
+ConfigEditor.py
+GenYamlCfg.py
+SingleSign.py
+
+
+Intel BCT
+----------
+Portable graphical editor used to manipulate firmware data that is 
+multi architecture compatible and a standalone executable
+https://github.com/intel/BCT.git
+
